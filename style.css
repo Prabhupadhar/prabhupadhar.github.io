@@ -310,7 +310,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   padding-top: 60px; /* same height as your fixed navbar */
 }
 
