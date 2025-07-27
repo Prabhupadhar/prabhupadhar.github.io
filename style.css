@@ -1028,7 +1028,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.12);
   border: 1.5px solid rgba(255, 255, 255, 0.2);
-  margin: 60px auto 32px auto;   /* push down below navbar and add bottom space */
+  margin: 60px auto 100px auto;   /* push down below navbar and add bottom space */
   max-width: 900px;              /* makes the box less wide on bigger screens */
   padding: 40px 28px;
   z-index: 1;
