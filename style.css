@@ -800,7 +800,7 @@ body {
     radial-gradient(circle at 80% 20%, rgba(64,221,255,0.15) 0%, transparent 50%),
     radial-gradient(circle at 40% 80%, rgba(250,18,227,0.15) 0%, transparent 50%),
     #000; /* or var(--color-black) */
-  color: var(--color-white);
+  color: var(--color-black);
   line-height: var(--line-height-normal);
   overflow-x: hidden;
   margin: 0; /* Remove extra default space */
