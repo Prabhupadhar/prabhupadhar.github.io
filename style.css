@@ -1052,6 +1052,44 @@ body {
   background: var(--color-bg-5);
 }
 
+/*tools */
+.tools {
+  background: var(--color-bg-5);       /* Soft purple-ish background */
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.10);
+  max-width: 900px;
+  margin: 0 auto 100px auto;
+  padding: 40px 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.tools-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 36px;                /* Space between icons */
+  margin-top: 32px;
+}
+
+.tools-icons i {
+  font-size: 3rem;          /* Large icons */
+  color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 18px;
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tools-icons i:hover {
+  color: var(--color-purple);
+  transform: scale(1.2) rotate(-8deg);
+  box-shadow: 0 3px 18px rgba(118, 18, 250, 0.12);
+}
+
+
 .video-wrapper {
   max-width: 800px;
   margin: 0 auto;
