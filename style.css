@@ -1189,7 +1189,6 @@ body {
 
 /* Section Backgrounds */
 .expertise, .work, .achievements, .certifications, .skills, .education, .video {
-  min-height: 100vh; /* or adjust for your design needs */
   position: relative;
   background:
     radial-gradient(circle at 20% 50%, rgba(118, 18, 250, 0.15) 0%, transparent 50%),
@@ -1434,7 +1433,7 @@ body {
 }
 
 section {
-  margin-bottom: 100px;   /* This adds big space below every section (change 100px as needed) */
+  margin-bottom: 0;   /* This adds big space below every section (change 100px as needed) */
 }
 
 @media (max-width: 600px) {
