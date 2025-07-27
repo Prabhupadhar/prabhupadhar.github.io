@@ -787,6 +787,7 @@ select.form-control {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
   font-size: var(--font-size-base);
 }
 
