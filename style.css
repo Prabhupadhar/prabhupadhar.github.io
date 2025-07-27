@@ -1026,8 +1026,7 @@ body {
 
 /* About Section */
 .about {
-  background: rgba(255, 255, 255, 0.12);  /* Glossy, semi-transparent white */
-  backdrop-filter: blur(12px) saturate(120%);
+ backdrop-filter: blur(12px) saturate(120%);
   -webkit-backdrop-filter: blur(12px) saturate(120%);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.12);
@@ -1184,7 +1183,7 @@ body {
 }
 
 /* Section Backgrounds */
-.expertise, .work, .achievements, .certifications, .skills, .education, .video, .stats, .footer{
+.expertise, .work, .achievements, .certifications, .skills, .education, .video, .stats, .footer, .about{
   position: relative;
   background:
     radial-gradient(circle at 20% 50%, rgba(118, 18, 250, 0.15) 0%, transparent 50%),
@@ -1196,7 +1195,7 @@ body {
 }
 
 /* SVG grid overlay, identical to .hero::before */
-.expertise::before, .work::before, .achievements::before, .certifications::before, .skills::before, .education::before, .video::before, .stats::before, .footer::before{
+.expertise::before, .work::before, .achievements::before, .certifications::before, .skills::before, .education::before, .video::before, .stats::before, .footer::before, .about::before{
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
