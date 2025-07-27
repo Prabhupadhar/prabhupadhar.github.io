@@ -1186,7 +1186,7 @@ body {
 
 /* Section Backgrounds */
 .expertise {
-  background: var(--color-bg-4);
+  background: var(--color-bg-5);
 }
 
 .work {
@@ -1194,19 +1194,19 @@ body {
 }
 
 .achievements {
-  background: var(--color-bg-6);
+  background: var(--color-bg-5);
 }
 
 .certifications {
-  background: var(--color-bg-7);
+  background: var(--color-bg-5);
 }
 
 .skills {
-  background: var(--color-bg-8);
+  background: var(--color-bg-5);
 }
 
 .education {
-  background: var(--color-bg-1);
+  background: var(--color-bg-5);
 }
 
 /* Timeline */
