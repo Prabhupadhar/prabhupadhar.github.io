@@ -1426,4 +1426,15 @@ body {
 .loaded {
   opacity: 1;
   transform: translateY(0);
+
+section {
+  margin-bottom: 100px;   /* This adds big space below every section (change 100px as needed) */
+}
+
+@media (max-width: 600px) {
+section {
+    margin-bottom: 56px;  /* Less space on smaller/mobile screens */
+  }
+}
+
 }
