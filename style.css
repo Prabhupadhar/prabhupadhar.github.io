@@ -1184,7 +1184,7 @@ body {
 }
 
 /* Section Backgrounds */
-.expertise, .work, .achievements, .certifications, .skills, .education, .video, .stats{
+.expertise, .work, .achievements, .certifications, .skills, .education, .video, .stats, .footer{
   position: relative;
   background:
     radial-gradient(circle at 20% 50%, rgba(118, 18, 250, 0.15) 0%, transparent 50%),
@@ -1196,7 +1196,7 @@ body {
 }
 
 /* SVG grid overlay, identical to .hero::before */
-.expertise::before, .work::before, .achievements::before, .certifications::before, .skills::before, .education::before, .video::before, .stats::before{
+.expertise::before, .work::before, .achievements::before, .certifications::before, .skills::before, .education::before, .video::before, .stats::before, .footer::before{
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -1298,11 +1298,6 @@ body {
 }
 
 /* Footer */
-.footer {
-  background: rgba(0, 0, 0, 0.9);
-  border-top: 1px solid rgba(118, 18, 250, 0.2);
-}
-
 .footer p {
   color: rgba(255, 255, 255, 0.6);
   font-size: var(--font-size-sm);
