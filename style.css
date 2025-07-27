@@ -299,15 +299,16 @@
 
 /* Base styles */
 html {
-  scroll-padding-top: 60px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
   font-size: var(--font-size-base);
-  font-family: var(--font-family-base);
-  line-height: var(--line-height-normal);
-  color: var(--color-text);
-  background-color: var(--color-background);
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(118, 18, 250, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(64, 221, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(250, 18, 227, 0.15) 0%, transparent 50%),
+    var(--color-black);
 }
+
 
 body {
   margin: 40px;
