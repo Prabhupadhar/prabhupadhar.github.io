@@ -1429,7 +1429,7 @@ body {
 }
 
 section {
-  margin-bottom: 0;   /* This adds big space below every section (change 100px as needed) */
+  margin-bottom: 32px;   /* This adds big space below every section (change 100px as needed) */
 }
 
 @media (max-width: 600px) {
